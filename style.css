@@ -12,7 +12,6 @@
     border: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
 }
 
 .nav-container {
@@ -29,28 +28,31 @@
 
 .ul-nav {
     display: flex;
-    gap: 3.2em;
-   width: 55vw;
+    gap: 2.4em;
+    width: 55vw;    
 }
 
 .ul-nav li a {
     color: black;
-    /* font-family: "Roboto"; */
+    font-family: "Roboto";
     font-size: 20px;
+    text-decoration: none;
 }
 
 .div-nav-3 {
     display: flex;
+
     
 }
 
 form {
     display: flex;
     align-items: center;
+    margin-top: -12px;
 }
 
 .label-login {
-    /* font-family: "Roboto"; */
+    font-family: "Roboto";
     font-size: 17px;
 }
 
@@ -78,7 +80,14 @@ input::placeholder {
 
 /********* S1 carrousel e Aside**********/
 
+.s1 {
+    margin-top: 10px;
+}
+
 .s1-container {
     display: flex;
 }
 
+.div1-s1 {
+    width: 75%;
+}
