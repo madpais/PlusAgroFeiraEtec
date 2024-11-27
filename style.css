@@ -59,7 +59,7 @@ form input {
     height: 2.6875rem;
     font-family: "Roboto";
     color: #139de7;
-    font-size: 17px;
+    font-size: 20px;
     border-bottom: 3px solid #6AC4F3;
     margin-left: 5px;
 }
@@ -73,7 +73,12 @@ input::placeholder {
 .btn-login {
     margin-left: 5px;
     background: rgba(255,241,89,1);
-    
 }
 
- 
+
+/********* S1 carrousel e Aside**********/
+
+.s1-container {
+    display: flex;
+}
+
