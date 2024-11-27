@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/inter/v2/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-container {
+    width: 90rem;
+    height: 8.75rem;
+    background: linear-gradient(90deg, rgba(238,237,223,1) 0%, rgba(243,238,180,1) 32%, rgba(255,241,89,1) 100%);
+    display: flex;
+}
+
+.div-nav-2 {
+    display: flex;
+    align-items: center;
+}
+
+.ul-nav {
+    display: flex;
+    gap: 3.2em;
+   width: 55vw;
+}
+
+.ul-nav li a {
+    color: black;
+    /* font-family: "Roboto"; */
+    font-size: 20px;
+}
+
+.div-nav-3 {
+    display: flex;
+    
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.label-login {
+    /* font-family: "Roboto"; */
+    font-size: 17px;
+}
+
+form input {
+    width: 16.3125rem;
+    height: 2.6875rem;
+    color: blue;
+    font-size: 17px;
+    border-bottom: 3px solid #6AC4F3;
+    margin-left: 5px;
+}
+
+input::placeholder {
+    color: #A5A5A5;
+    font-size: 17px;
+}
+
+.btn-login {
+    margin-left: 5px;
+    background: rgba(255,241,89,1);
+    
+}
+
+ 
