@@ -57,7 +57,8 @@ form {
 form input {
     width: 16.3125rem;
     height: 2.6875rem;
-    color: blue;
+    font-family: "Roboto";
+    color: #139de7;
     font-size: 17px;
     border-bottom: 3px solid #6AC4F3;
     margin-left: 5px;
@@ -65,6 +66,7 @@ form input {
 
 input::placeholder {
     color: #A5A5A5;
+    font-family: "Roboto";
     font-size: 17px;
 }
 
