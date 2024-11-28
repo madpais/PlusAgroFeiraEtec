@@ -30,10 +30,10 @@
                 </div>
 
                 <div class="div-nav-3">
-                    <form action="/login" method="POST">
+                    <form action="/login" method="POST" class="form-nav">
                             <div>
                                 <label class="label-login" for="username">Entre</label>
-                                <input type="text" id="username" name="username" placeholder=" seu e-mail de acesso" required>                        
+                                <input type="text" id="username" name="username" placeholder=" seu e-mail de acesso" required class="input-nav">                        
                             </div>
                             <button class="btn-login" type="submit" class="login-button"><img src="imgs/btn-login.png"></button>
                             
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-            </aside>
+            </aside> 
             
             
             </div>
@@ -250,8 +250,12 @@
         <hr>
     </div>
 
+
+      <!--Carousel WorkShop-->
+
+
     <section class="s4">
-            <!--Carousel WorkShop-->
+          
 
     <div class="carousel-down">
         <h1>Workshops e Cursos em aberto</h1>
@@ -273,6 +277,186 @@
         <hr>
     </div>
 
+    </section>
+
+
+    <!--Formulario-->
+
+
+    <section class="s5">
+
+        
+
+        <div class="forms">
+            <h1 class="forms-h3">New Letter</h1>
+            <div class="forms-tittle">
+                <h3>Receba informações atualizadas sobre o setor de <br>
+                    <p class="text-blue">Crédito de Carbono</p>
+                </h3>
+            </div>
+
+            <div class="forms-all">
+                <form action="/submit" method="post" class="form-new-letter">
+
+                    <div class="forms-label">
+                        
+                        <label for="name">Nome*
+                            <input type="text" name="name" class="forms-input-initial">
+                        </label> <!--input tipo text -->
+                        
+                        <label for="e-mail">E-mail*
+                            <input type="email" name="email" class="forms-input-initial">
+                        </label>  <!-- input tipo email -->
+
+                    </div>
+
+                    <label for="estado">Estado*
+                        <select name="estado" id="estado" onchange="carregarCidades()">
+                            <option value=""></option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </label>
+        
+                    <label for="cidade">Cidade*
+                        <select name="cidade" id="cidade">
+                            <option value=""></option>
+                        </select>
+                    </label>
+                    
+
+                    
+                        <label>Produção*</label>
+
+                        <div class="div_check_pai">
+
+                            <div class="line-1-new"> 
+                                <label for=""><input type="checkbox"> Agrícola Extensiva</label>
+                                <label for=""><input type="checkbox"> Agrícola Intensiva</label>
+                                <label for=""><input type="checkbox"> Agrícola Familiar</label>
+                                <label for=""><input type="checkbox"> Agrícola Patronal</label>
+                                <label for=""><input type="checkbox"> Agrícola Orgânica</label>
+                            </div>
+
+                            <div class="line-2-new">
+                                <label for=""><input type="checkbox"> Permacultura</label>
+                                <label for=""><input type="checkbox"> Pecuária Leiteira</label>
+                                <label for=""><input type="checkbox"> Pecuária de Corte</label>
+                                <label for=""><input type="checkbox"> Pecuária de Lã</label>
+                                <label for=""><input type="checkbox"> Pscicultura</label>
+                            </div>
+
+                            <div class="line-3-new">
+                                <label for=""><input type="checkbox"> Todas</label>
+                            </div>
+
+                            
+                        </div>
+
+
+                        <!-- <div class="line-1">
+                            <label for=""><input type="checkbox"> Agrícola Extensiva</label>
+                            <label for=""><input type="checkbox"> Permacultura</label>
+                            <label for=""><input type="checkbox"> Todas</label>
+                        </div>
+                        <div class="line-2">
+                            <label for=""><input type="checkbox"> Agrícola Intensiva</label>
+                            <label for=""><input type="checkbox"> Pecuária Leiteira</label>
+                        </div>
+                        <div class="line-3">
+                            <label for=""><input type="checkbox"> Agrícola Familiar</label>
+                            <label for=""><input type="checkbox"> Pecuária de Corte</label>
+                        </div>
+                        <div class="line-4">
+                            <label for=""><input type="checkbox"> Agrícola Patronal</label>
+                            <label for=""><input type="checkbox"> Pecuária de Lã</label>
+                        </div>
+                        <div class="line-5">
+                            <label for=""><input type="checkbox"> Agrícola Orgânica</label>
+                            <label for=""><input type="checkbox"> Pscicultura</label>
+                        </div> -->
+                    
+                    <button type="submit" class="newsletter-submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        
+        <br>
+    </section>
+
+        <!-- Footer -->
+
+    <section class="s6">
+        <footer class="text-dark text-center w-100">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer-left col-md-3">
+                        <img src="img/logo.png" alt="Logo +Agro" class="footer-img">
+                        <h5 class="h5-footer mt-2">+Agro</h5>
+                        <p>CNPJ: 23.728.405/0001-46</p>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <h6>Miscellaneous</h6>
+                            <li><a href="#">Para o Produtor</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="#">Quem Somos</a></li>
+                            <li><a href="#">Missão</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled">
+                            <h6>Navegação</h6>
+                            <li><a href="#">Histórias de Sucesso</a></li>
+                            <li><a href="#">Notícias</a></li>
+                            <li><a href="#">Workshops e Cursos</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="icon-footer d-flex justify-content-center gap-6 mb-3" id="footer-icon">
+                            <a href="#"><img src="img/Icon-Instagram.png" alt="Instagram" width="66"></a>
+                            <a href="#"><img src="img/Icon-Twitter.png" alt="Twitter" width="66"></a>
+                            <a href="#"><img src="img/Icon-YouTube.png" alt="YouTube" width="66"></a>
+                            <a href="#"><img src="img/Icon-Facebook.png" alt="Facebook" width="66"></a>
+                        </div>
+                        <img src="img/qrcode.png" alt="QR Code" width="80" class="img-qrcode">
+                    </div>
+                </div>
+                <hr class="line-hr-footer">
+                <br>
+                <div class="last-footer">
+                <p class="mb-0">Copyright © 2024 - Todos os Direitos Reservados - Desenvolvido por Alunos Etec 1º DS</p>
+                <a href="#" class="text-decoration-none" id="footer-privacy">Política de Privacidade</a>
+            </div>
+            </div>
+        </footer>
+    
     </section>
 
     </main>

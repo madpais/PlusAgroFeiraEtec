@@ -43,7 +43,7 @@
     
 }
 
-form {
+.form-nav {
     display: flex;
     align-items: center;
     margin-top: -12px;
@@ -54,7 +54,7 @@ form {
     font-size: 17px;
 }
 
-form input {
+.form-nav .input-nav {
     width: 16.3125rem;
     height: 2.6875rem;
     font-family: "Inter";
@@ -66,7 +66,7 @@ form input {
     padding-left: 5px;
 }
 
-input::placeholder {
+.input-nav::placeholder {
     color: #A5A5A5;
     font-family: "Inter";
     font-size: 17px;    
@@ -687,3 +687,191 @@ border-radius: 10px;
     padding: 0 50px; /* Cria espaço para as imagens da ponta aparecerem */
     margin-left: -50px; /* Move o track para compensar o padding */
   }
+
+
+   /* Formulário */
+
+   .forms {
+    padding: 30px 50px 50px 10px;
+    position: relative;
+    background: rgba(255, 250, 199, 0.7);
+    width: 100%;
+}
+
+.forms-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.forms-tittle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.forms-tittle p {
+    font-weight: bold;
+    color: #1030FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-new-letter {
+    box-sizing: border-box;
+    background: #E0D9D9;
+    border: 1px solid rgba(155, 151, 151, 0.8);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 45%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.form-new-letter label {
+    color: #5E5454;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.forms-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-input {
+    background: #FFFFFF;
+    border: 1px solid rgba(155, 151, 151, 0.8);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.forms-input-initial {
+    background: blu;
+    border: 1px solid rgba(155, 151, 151, 0.8);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+#estado {
+    background: #FFFFFF;
+    border: 1px solid rgba(155, 151, 151, 0.8);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+#cidade {
+    background: #FFFFFF;
+    border: 1px solid rgba(155, 151, 151, 0.8);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.newsletter-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.newsletter-checkbox-group label {
+    font-size: 0.85rem;
+    color: #333;
+}
+
+.newsletter-submit {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    background-color: #808080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: solid 3px #ffff;
+}
+
+.newsletter-submit:hover {
+    background-color: #444;
+} 
+
+/* .line-1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 50px;
+}
+
+.line-2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 50px;
+
+}
+
+.line-3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 59px;
+
+}
+
+.line-4 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 55px;
+
+}
+
+.line-5 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 49px;
+} */
+
+
+.div_check_pai input[type="checkbox"] {
+    background: #FFFFFF;
+    border: 1px solid rgba(155, 151, 151, 0.8);
+    border-radius: 5px;
+}
+
+.div_check_pai {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.line-1-new {
+    display: block;
+    margin-top: 5px;
+    max-width: 40%;
+}
+
+.line-2-new {
+    display: block;
+    margin-top: 5px;
+    max-width: 40%;
+}
+
+.line-2-new {
+    display: block;
+    margin-top: 5px;
+    max-width: 40%;
+}
+
