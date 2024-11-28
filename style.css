@@ -513,7 +513,7 @@ input::placeholder {
 .line-hr hr {
     margin: 30px auto;
     width: 90vw;
-    border-top: 4px solid #A2A4F7;     /* Borda de 4px de espessura e cor azul */
+    border-top: 4px solid #1e06f0;     /* Borda de 4px de espessura e cor azul */
 }
 
 
@@ -536,7 +536,7 @@ input::placeholder {
 }
 
 .section-h1 {
-    padding:  10px 30px;
+    padding:  10px 20px -0 10px;
     display: inline-block;
     width: 98.9vw;
     background: rgba(255, 250, 199, 0.7);
@@ -610,3 +610,80 @@ border-radius: 10px;
     text-decoration: none;
     color: #000000;
 }
+
+
+/* Configuração do carrossel */
+
+.carousel-down h1 {
+    padding:  0 0 20px 10px;
+}
+
+.carousel-down {
+    padding: 10px 0px 0px 0px;
+    background-color: #FCF8CF;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: visible; /* Permitir que as imagens laterais apareçam parcialmente */
+  }
+  
+  /* Área visível do carrossel */
+  .carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* Define a largura do carrossel */
+    margin: auto;
+  }
+  
+  /* Faixa com os itens do carrossel */
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Configuração dos itens (imagens) */
+  .carousel-item-down {
+    flex: 0 0 auto; /* Garante que cada item tenha largura fixa */
+    width: 334px; /* Largura da imagem */
+    height: 400px; /* Altura da imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 30px;
+  }
+  
+  .carousel-item-down img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    
+  }
+  
+  /* Botões de navegação */
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .carousel-btn.prev {
+    left: 0; /* Alinha o botão anterior à esquerda */
+  }
+  
+  .carousel-btn.next {
+    right: 0; /* Alinha o botão próximo à direita */
+  }
+  
+  /* Margem extra para permitir que as bordas apareçam */
+  .carousel-track {
+    padding: 0 50px; /* Cria espaço para as imagens da ponta aparecerem */
+    margin-left: -50px; /* Move o track para compensar o padding */
+  }
