@@ -15,10 +15,11 @@
 }
 
 .nav-container {
-    width: 90rem;
+ 
     height: 8.75rem;
     background: linear-gradient(90deg, rgba(238,237,223,1) 0%, rgba(243,238,180,1) 32%, rgba(255,241,89,1) 100%);
     display: flex;
+    border-radius: 20px;
 }
 
 .div-nav-2 {
@@ -89,7 +90,7 @@ input::placeholder {
 }
 
 .div1-s1 {
-    width: 75%;
+    width: 75vw;
 }
 
-n
+
