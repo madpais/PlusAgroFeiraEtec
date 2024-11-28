@@ -1,12 +1,3 @@
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url(https://fonts.gstatic.com/s/inter/v2/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 * {
     margin: 0;
     border: 0;
@@ -16,10 +7,14 @@
 
 .nav-container {
  
-    height: 8.75rem;
+    height: 8rem;
     background: linear-gradient(90deg, rgba(238,237,223,1) 0%, rgba(243,238,180,1) 32%, rgba(255,241,89,1) 100%);
     display: flex;
     border-radius: 20px;
+}
+
+.div-nav-1 .img-logo {
+    max-width: 90%;
 }
 
 .div-nav-2 {
@@ -29,19 +24,21 @@
 
 .ul-nav {
     display: flex;
-    gap: 3em;
-    width: 55vw;    
+    gap: 2.5em;
+    width: 60vw;
+    margin-left: -40px;  
 }
 
 .ul-nav li a {
     color: black;
-    font-family: "Roboto";
+    font-family: "Inter";
     font-size: 20px;
     text-decoration: none;
 }
 
 .div-nav-3 {
     display: flex;
+    margin-left: -20px;
 
     
 }
@@ -53,24 +50,26 @@ form {
 }
 
 .label-login {
-    font-family: "Roboto";
+    font-family: "Inter";
     font-size: 17px;
 }
 
 form input {
     width: 16.3125rem;
     height: 2.6875rem;
-    font-family: "Roboto";
+    font-family: "Inter";
     color: #139de7;
-    font-size: 20px;
+    font-size: 17px;
     border-bottom: 3px solid #6AC4F3;
     margin-left: 5px;
+    box-shadow: 1px 2px 4px #6AC4F3;
+    padding-left: 5px;
 }
 
 input::placeholder {
     color: #A5A5A5;
-    font-family: "Roboto";
-    font-size: 17px;
+    font-family: "Inter";
+    font-size: 17px;    
 }
 
 .btn-login {
@@ -89,8 +88,431 @@ input::placeholder {
     display: flex;
 }
 
+/******* Div carrousell *******/
+
 .div1-s1 {
-    width: 75vw;
+    width: 80vw;
+}
+
+/******* ASide-Bar Inicial ******/
+
+.div2-s1 {
+    margin-right: 20px;
+}
+    
+.side-bar {
+    position: absolute;
+    top: 150px;
+    width: 280px;
+    height: 120vh;
+    right: -13px;
+    margin-top: -12px;
+}
+
+.card {
+    width: 19.4vw;
+  
+}
+
+.card img {
+    width: 262px;
+    height: 146px;  
+}
+
+.card .text-container {
+    background: #fff9bd;
+}
+
+.text-container {
+    width: 262px;
+    height:80px;
+}
+
+.text-container h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 20px;
+    
+}
+
+.card .text-container p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.card h3 {
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.card p {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.button-container {
+    margin-top: 4px;
+    margin-bottom: 4px;    
+}
+
+/* button aside */
+
+.button-container button {
+    background-color: #4548EC;
+    font-family: "Inter";
+    font-size: 12px;
+    border-style: none;
+    border-radius:5px;
+    width: 96px;
+    height: 30px;
+}
+
+.button-container a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/******* Side-Bar Inicial *******/
+
+/* Aside Cotação - Mover para baixo da side-bar */
+.cotacao {
+    height: 440px;
+    background: #F8FECF99;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 15px; /* Espaçamento interno */
+    max-width: 400px; /* Largura máxima */
+    margin: 20px auto; /* Centralizar horizontalmente */
+    position: relative; /* Necessário para usar 'top' */   
+}
+
+/* Restante do CSS do aside-cotação */
+
+
+/* input perdido */
+
+.aside-up h3 {
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F90808;
+    width: 83px;
+}
+
+.aside-up img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 13px;
+    width: 100%;
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile img {
+    border-radius: 13px;
+    width: 40px;
+    height: 40px;
+}
+
+.profile p {
+    font-family: 'Inter';
+    font-size: 15px;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+
+.cotação-down h3 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.cotação-down p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.cotação-down input[type="text"] {
+    height: 120px;
+    width: 95%;
+    border: solid 1px #9B9797;
+}
+
+.input-footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.input-footer button {
+    color: #FFF;
+    box-sizing: border-box;
+    width: 70px;
+    height: 26px;
+    background: #808080;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-footer p {
+    position: relative;
+    top: 6px;
+    font-size: 14px;
+}
+
+/***************** Historia de Sucesso ***************/
+
+main {
+    margin-top: -3rem;
+}
+
+.card-historia {
+    width: 370px;
+}
+
+.historia-container {
+    background-color: #FFFAC7B2; /* Cor de fundo com transparência */
+    width: 80vw;
+    height: 440px;
+    padding: 10px 10px 50px 10px;
+    margin-top: 70px;
+}
+
+.historia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.historia button {
+    box-sizing: border-box;
+    width: 130px;
+    height: 43px;
+    background: #F8FECF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+
+.historia a {
+    text-decoration: none;
+    width: 124px;
+    height: 19px;
+    font-size: 16px;
+    color: #5E5454;
+}
+
+.historia-p {
+    font: 'Inter';
+    font-size: 20px;
+    color: #000000;
+}
+
+.historia-profession {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Almir-História  */
+
+.almir-up {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    padding: 0 0 20px 10px;
+}
+
+.almir-up::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg, #FAF6F4 23.83%, #99634A 60.77%, #664232 100%);
+    top: 0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.almir-up img {
+    width: 134px;
+    height: 130px;
+}
+
+.almir-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
 }
 
 
+.almir-down {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    height: 159 px;;
+}
+
+.almir-down p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* Maria-História */
+
+.maria-up {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    padding: 0 0 20px 10px;
+}
+
+.maria-up::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg, #FAF6F4 23.83%, #99634A 60.77%, #664232 100%);
+    top: 0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.maria-up img {
+    width: 134px;
+    height: 130px;
+}
+
+.maria-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.maria-down {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    height: 160px;
+}
+
+.maria-down p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.maria-down button {
+    margin-top: 25px;
+}
+
+/* Lize-História  */
+ 
+.lize-up {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    padding: 0 0 20px 10px;
+}
+
+.lize-up::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg, #FAF6F4 23.83%, #99634A 60.77%, #664232 100%);
+    top: 0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.lize-up img {
+    width: 134px;
+    height: 130px;
+}
+
+.lize-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.lize-down {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    height: 160px;
+}
+
+.lize-down p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+
+/******line divisa section ********/
+
+.line-hr hr {
+    margin: 0 auto;
+    width: 90vw;
+    border-top: 4px solid #A2A4F7;     /* Borda de 4px de espessura e cor azul */
+}
