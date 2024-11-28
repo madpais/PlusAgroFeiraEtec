@@ -103,15 +103,13 @@ input::placeholder {
 .side-bar {
     position: absolute;
     top: 150px;
-    width: 280px;
+    width: 265px;
     height: 120vh;
-    right: -13px;
     margin-top: -12px;
+    right: 0px;
 }
 
-.card {
-    width: 19.4vw;
-  
+.card {  
 }
 
 .card img {
@@ -162,7 +160,7 @@ input::placeholder {
 
 .button-container {
     margin-top: 4px;
-    margin-bottom: 4px;    
+    margin-bottom: 4px;   
 }
 
 /* button aside */
@@ -190,15 +188,11 @@ input::placeholder {
     background: #F8FECF99;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 15px; /* Espaçamento interno */
-    max-width: 400px; /* Largura máxima */
     margin: 20px auto; /* Centralizar horizontalmente */
-    position: relative; /* Necessário para usar 'top' */   
+
 }
 
 /* Restante do CSS do aside-cotação */
-
-
-/* input perdido */
 
 .aside-up h3 {
     display: flex;
@@ -216,18 +210,17 @@ input::placeholder {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 13px;
-    width: 100%;
+    width: 95%;
     display: flex;
 }
 
 .profile {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 4px;
 }
 
 .profile img {
-    border-radius: 13px;
     width: 40px;
     height: 40px;
 }
@@ -266,6 +259,10 @@ input::placeholder {
     height: 120px;
     width: 95%;
     border: solid 1px #9B9797;
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: start;
+    color: #9B9797;
 }
 
 .input-footer {
@@ -285,6 +282,7 @@ input::placeholder {
     border: 2px solid #FFFFFF;
     border-radius: 5px;
     text-align: center;
+    margin-right: 11px;
 }
 
 .input-footer p {
@@ -295,8 +293,8 @@ input::placeholder {
 
 /***************** Historia de Sucesso ***************/
 
-main {
-    margin-top: -3rem;
+.s2 {
+    margin-top: -3.2rem;
 }
 
 .card-historia {
@@ -309,6 +307,7 @@ main {
     height: 440px;
     padding: 10px 10px 50px 10px;
     margin-top: 70px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .historia {
@@ -512,7 +511,102 @@ main {
 /******line divisa section ********/
 
 .line-hr hr {
-    margin: 0 auto;
+    margin: 30px auto;
     width: 90vw;
     border-top: 4px solid #A2A4F7;     /* Borda de 4px de espessura e cor azul */
+}
+
+
+/* Aqui começa a Notícias */
+
+.s3 {
+    width: 98.9vw;
+}
+
+
+/******** Notícias *********/
+
+.section-notiicias {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 250, 199, 0.7);
+    width: 98.9vw;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.section-h1 {
+    padding:  10px 30px;
+    display: inline-block;
+    width: 98.9vw;
+    background: rgba(255, 250, 199, 0.7);
+}
+
+.section-left,
+.section-medium,
+.section-right {
+    background: linear-gradient(180.06deg, rgba(255, 255, 255, 0.7) 5.85%, rgba(255, 255, 255, 0.7) 59.48%, rgba(197, 205, 135, 0.7) 99.94%);
+    box-shadow: 19px 25px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 80px 20px 0px;
+    width: 427px;
+    height: 448px;
+}
+
+.section-image {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px;
+}
+
+.section-p {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #5E5454;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+}
+
+.section-h3 {
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding: 15px;
+    margin-top: -30px;
+}
+
+.section-layer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.section-pnote {
+    color: #5E5454;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: -15px;
+}
+
+.section-button {
+box-sizing: border-box;
+width: 125px;
+height: 40px;
+background: #F8FECF;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+.section-button a {
+    text-decoration: none;
+    color: #000000;
 }
