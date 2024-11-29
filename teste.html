@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="teste.css">
-    <title>Document</title>
+    <title>Formulário em Coluna</title>
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column; /* Organiza os itens em coluna */
+            gap: 10px; /* Espaçamento entre os campos */
+        }
+        .form-container label {
+            font-size: 1rem;
+        }
+        .form-container input {
+            padding: 8px;
+            font-size: 1rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
-    
-    <p class="text-stroke">Texto com contorno nas letras</p>
 
-    <p class="text-contour">Texto com contorno nas letras</p>
+    <form class="form-container">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="contato">Contato:</label>
+        <input type="tel" id="contato" name="contato" required>
+        
+        <button type="submit">Enviar</button>
+    </form>
 
 </body>
 </html>

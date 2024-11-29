@@ -802,45 +802,6 @@ border-radius: 10px;
     background-color: #444;
 } 
 
-/* .line-1 {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 50px;
-}
-
-.line-2 {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 50px;
-
-}
-
-.line-3 {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 59px;
-
-}
-
-.line-4 {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 55px;
-
-}
-
-.line-5 {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 49px;
-} */
-
-
 .div_check_pai input[type="checkbox"] {
     background: #FFFFFF;
     border: 1px solid rgba(155, 151, 151, 0.8);
