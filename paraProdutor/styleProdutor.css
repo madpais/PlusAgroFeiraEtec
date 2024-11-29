@@ -96,6 +96,84 @@ main {
     align-items: center;
 }
 
+
+
+
+/***********************container-pai-qdr****************************/
+.container-pai-qdr {
+    display: flex;
+}
+
+.qdr-direita-pai {
+    /* background-color: blue; */
+    width: 45vw;
+    /* height: 80vh; */
+    margin-top: 40px;   /*************desce o qdr para baixo à partir do topo*****************/
+    padding: 35px; 
+}
+
+.qdr-direita {
+    width: 558px;
+    height: 322px;
+    box-shadow: 19px 25px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 215px 20px 20px;
+    background: linear-gradient(180.06deg, rgba(255, 255, 255, 0.5) 5.85%, rgba(231, 234, 205, 0.5) 23.26%, rgba(255, 255, 255, 0.5) 63.25%, rgba(197, 205, 135, 0.5) 99.94%);
+    border: 5px solid #FFFFFF;
+    margin-left: 30px;          /***********************move p direita************************/
+    display: flex;                 /* flexibiliza para alinhar */
+    justify-content: flex-start;  /* Alinha os itens horizontalmente (opcional) */
+    align-items: center;        /* Alinha os itens na parte inferior */
+    margin-bottom: 32px;   /****************espaço entre os quadros********************/
+}
+
+.demais-quadros {
+    display: flex;
+    justify-content: center;  /* Alinha os itens horizontalmente (opcional) */
+    margin-left: 30px;
+
+}
+
+
+
+
+/******* forma o quadro do aside interior do primeiro  *********/
+
+.qdr-int-1-direita {
+    width: 468.1px;
+    height: 257px;
+    margin-left: 50px;          /***********************move p direita************************/
+    box-shadow: 19px 25px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 215px 20px 20px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 5.13%, rgba(202, 209, 145, 0.5) 91.19%);
+    border: solid 5px #ffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.qdr-int-1-direita img {
+        width: 80%;
+        margin-top: -25px;
+}
+
+
+
+
+
+
+/********texto dentro do prineiro qudro aside*************/
+
+
+
+.div-texto-aside-qdr-direita {
+    margin-left: 70px;
+    margin-top: 40px;
+    display: flex;
+}
+
+
 /***************div do aside****************/
 
 .div-aside {
