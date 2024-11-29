@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-container {
+ 
+    height: 8rem;
+    background: linear-gradient(90deg, rgba(238,237,223,1) 0%, rgba(243,238,180,1) 32%, rgba(255,241,89,1) 100%);
+    display: flex;
+    border-radius: 20px;
+}
+
+.div-nav-1 .img-logo {
+    max-width: 90%;
+}
+
+.div-nav-2 {
+    display: flex;
+    align-items: center;
+}
+
+.ul-nav {
+    display: flex;
+    gap: 2.5em;
+    width: 60vw;
+    margin-left: -40px;  
+}
+
+.ul-nav li a {
+    color: black;
+    font-family: "Inter";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div-nav-3 {
+    display: flex;
+    margin-left: -20px;
+
+    
+}
+
+.form-nav {
+    display: flex;
+    align-items: center;
+    margin-top: -12px;
+}
+
+.label-login {
+    font-family: "Inter";
+    font-size: 17px;
+}
+
+.form-nav .input-nav {
+    width: 16.3125rem;
+    height: 2.6875rem;
+    font-family: "Inter";
+    color: #139de7;
+    font-size: 17px;
+    border-bottom: 3px solid #6AC4F3;
+    margin-left: 5px;
+    box-shadow: 1px 2px 4px #6AC4F3;
+    padding-left: 5px;
+}
+
+.input-nav::placeholder {
+    color: #A5A5A5;
+    font-family: "Inter";
+    font-size: 17px;    
+}
+
+.btn-login {
+    margin-left: 5px;
+    background: rgba(255,241,89,1);
+}
+
+/******S1 Banner **********/
+
+.body {
+    background-image: url(/paraProdutor/imgs/background_p_produtor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s1 {
+    display: flex;
+    justify-content: center;
+}
+
+.div-banner-s1 {
+    display: flex;
+    align-items: center;
+    height: 45.625rem;
+}
+
+/***************div do aside****************/
+.div-aside {
+    /* background-color: blue; */
+    width: 55vw;
+    /* height: 80vh; */
+    margin-top: -150px;
+    padding: 35px;
+}
+
+/*******forma primeiro o quadro do aside *********/
+.aside .reflorestamento {
+    width: 776px;
+    height: 244px;
+    box-shadow: 19px 25px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 215px 20px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 5.13%, rgba(202, 209, 145, 0.5) 91.19%);
+    border: solid 5px #ffff;
+    margin-left: 10px;
+    display: flex;                 /* flexibiliza para alinhar */
+    justify-content: flex-start;  /* Alinha os itens horizontalmente (opcional) */
+    align-items: flex-end;        /* Alinha os itens na parte inferior */
+}
+
+/******* forma o quadro do aside interior do primeiro  *********/
+
+.reflorestamento-int-1 {
+    width: 704px;
+    height: 204px;
+    box-shadow: 19px 25px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 215px 20px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 5.13%, rgba(202, 209, 145, 0.5) 91.19%);
+    border: solid 5px #ffff;
+}
+
+/********texto dentro do prineiro qudro aside*************/
+.div-texto-aside-qdr {
+    margin-left: 70px;
+    margin-top: 40px;
+    display: flex;
+}
+
+/************bordas do texto do quadro do aside **************/
+.texto-aside-qdr {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+    -webkit-text-stroke: 1.3px #ffff; /* Contorno de 2px de espessura na cor branca */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Simula o preenchimento dentro */
+    margin-left: 95px;
+}
