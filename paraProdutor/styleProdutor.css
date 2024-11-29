@@ -13,7 +13,7 @@
 }
 
 .div-nav-1 .img-logo {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .div-nav-2 {
@@ -93,7 +93,6 @@
 .div-banner-s1 {
     display: flex;
     align-items: center;
-    height: 45.625rem;
 }
 
 /***************div do aside****************/
