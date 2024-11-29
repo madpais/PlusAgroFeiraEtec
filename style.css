@@ -947,7 +947,7 @@ border-radius: 10px;
     }
 
     .line-hr-footer {
-        background-color: #A2A4F7;
+        background-color: #1e06f0;
         height: 2px;
     }
 
@@ -959,15 +959,7 @@ border-radius: 10px;
 
     /* linhas hr */
 
-    .line-hr {
-        background-image:url(img/image.png);
-        height: 90px;
-        width: 100%;
-        padding: 30px;
-        background-size: cover;
-    }
-
     .line-hr hr {
-        background-color: #A2A4F7;
+        background-color: #1e06f0;
         height: 3px;
     }
