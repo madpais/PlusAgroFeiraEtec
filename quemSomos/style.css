@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.team-member {
+    margin-bottom: 20px;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.team-member h5 {
+    margin-top: 10px;
+}
+.team-member p {
+    margin-bottom: 0;
+}
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+.logo img {
+    width: 100px;
+}
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+.card {
+    box-shadow: inset;
+    display: flex;
+}
+
+  .custom-card {
+    width: 900px;
+    height: 300px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #ffffe0, #f4f4f4);
+}
+  
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+  .logo-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .text-success {
+    color: black !important; /* Verde escuro */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
