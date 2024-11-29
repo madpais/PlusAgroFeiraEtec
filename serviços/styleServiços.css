@@ -140,9 +140,22 @@ margin-top: 80px;
     }
 
 .orcamento {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 568px;
+    border-radius: 0 0 80px 80px;
+    background-color: #FEFAD5;
+    margin-bottom: 20px;
 }
 
+.form-orcamento {
+    background-color: #E0D9D9;
+    border-radius: 20px;
+    width: 665px;
+    height: 449px;
+}
 
 
 
