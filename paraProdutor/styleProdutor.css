@@ -80,7 +80,7 @@
 /******S1 Banner **********/
 
 .body {
-    background-image: url(/paraProdutor/imgs/background_p_produtor.png);
+    background-image: url(imgs/background_p_produtor.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
