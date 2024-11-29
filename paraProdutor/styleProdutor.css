@@ -6,7 +6,6 @@
 }
 
 .nav-container {
- 
     height: 8rem;
     background: linear-gradient(90deg, rgba(238,237,223,1) 0%, rgba(243,238,180,1) 32%, rgba(255,241,89,1) 100%);
     display: flex;
@@ -14,7 +13,7 @@
 }
 
 .div-nav-1 .img-logo {
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .div-nav-2 {
@@ -76,6 +75,7 @@
     margin-left: 5px;
     background: rgba(255,241,89,1);
 }
+
 
 /******S1 Banner **********/
 
